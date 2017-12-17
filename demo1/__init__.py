@@ -1,5 +1,12 @@
-print("hello word!");
-l=["a","b","c"];
+#print("hello word!");
+# l=["a","b","c"];
 #print(l[:-1]);
-l=l+["d","e"];
-print(l);
+# l=l+["d","e"];
+#print(l);
+# m=[1,2,3,4,5];
+#print(l[-1::-1]);
+lists=[[1,2,3],[4,5,6],[7,8,9]];
+rowd=[row[1] for row in lists if row[1] % 5==0];
+# print(rowd);
+rowd1=[lists[i][i] for i in [0,1,2] ];
+print(rowd1);
