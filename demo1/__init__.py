@@ -34,6 +34,10 @@
 # print(next(g));
 
 #测试map属性
-M=[[1,2,3],[4,5,6],[7,8,9]]
-g=map(sum,M);
-print(list(g));
+# M=[[1,2,3],[4,5,6],[7,8,9]]
+# g=map(sum,M);
+# print(list(g));
+
+#2017-12-27
+re={"name":"bikaqiu","age":13,"address":["fist","second"],"pay":"56.6"};
+print(re["name"]);
