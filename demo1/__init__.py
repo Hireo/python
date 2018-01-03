@@ -39,5 +39,13 @@
 # print(list(g));
 
 #2017-12-27
-re={"name":"bikaqiu","age":13,"address":["fist","second"],"pay":"56.6"};
-print(re["name"]);
+#re={"name":"bikaqiu","age":13,"address":["fist","second"],"pay":"56.6"};
+#print(re["name"]);
+
+#2018-1-3
+vr={"9":9,"5":5,"3":3,"1":1};
+kd=list(vr.keys());
+print(kd);
+kd.sort();
+print(kd);
+for key in vr.keys():print(vr[key]);
