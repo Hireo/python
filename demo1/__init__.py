@@ -43,9 +43,15 @@
 #print(re["name"]);
 
 #2018-1-3
-vr={"9":9,"5":5,"3":3,"1":1};
-kd=list(vr.keys());
-print(kd);
-kd.sort();
-print(kd);
-for key in vr.keys():print(vr[key]);
+# vr={"9":9,"5":5,"3":3,"1":1};
+# kd=list(vr.keys());
+# print(kd);
+# kd.sort();
+# print(kd);
+# for key in vr.keys():print(vr[key]);
+v="abcrikfn";
+spr=[];
+for i in v:
+    print(i*2)
+    spr.append(i*2);
+    print(spr);
