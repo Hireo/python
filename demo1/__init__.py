@@ -49,9 +49,53 @@
 # kd.sort();
 # print(kd);
 # for key in vr.keys():print(vr[key]);
-v="abcrikfn";
-spr=[];
-for i in v:
-    print(i*2)
-    spr.append(i*2);
-    print(spr);
+# v="abcrikfn";
+# spr=[];
+# for i in v:
+#     print(i*2)
+#     spr.append(i*2);
+#     print(spr);
+
+#2018-1-6
+# D={"D":12,"f":34,"ui":65,"sr":"ed"};
+# if "f" in D:
+#     print("yes");
+
+#元
+# A=(1,2,3,4,5);
+# B=(5,6,7);
+# C=A+B;
+# print(C);
+# print(C[4]);
+# A=A+(8,9);
+# print(A);
+
+#文件处理
+# f=open("F:/test.txt", 'w');
+# f.write('hello\n');
+# f.write('world');
+# f.close();
+# b=open("F:/test.txt");
+# text=b.read();
+# print(text);
+# print(text.split());
+#键值对
+# x=set('test');
+# y={'a','b','c'};
+# print(x);
+# print(x-y);
+#定义类型
+class student:
+    def __init__(self,name,age):
+        self.name=name;
+        self.age=age;
+    def lastName(self):
+        return self.name.split()[-1];
+    def addAge(self):
+        self.age=self.age*5
+        print(self.age);
+        
+zgc=student('redcloudy',23);
+zgc.addAge();
+print(zgc.lastName());
+
