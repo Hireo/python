@@ -85,17 +85,27 @@
 # print(x);
 # print(x-y);
 #定义类型
-class student:
-    def __init__(self,name,age):
-        self.name=name;
-        self.age=age;
-    def lastName(self):
-        return self.name.split()[-1];
-    def addAge(self):
-        self.age=self.age*5
-        print(self.age);
+# class student:
+#     def __init__(self,name,age):
+#         self.name=name;
+#         self.age=age;
+#     def lastName(self):
+#         return self.name.split()[-1];
+#     def addAge(self):
+#         self.age=self.age*5
+#         print(self.age);
         
-zgc=student('redcloudy',23);
-zgc.addAge();
-print(zgc.lastName());
+# zgc=student('redcloudy',23);
+# zgc.addAge();
+# print(zgc.lastName());
+
+#2018-1-15
+# myfiler=open(r'F:\test.txt');
+# line = myfiler.read();
+# myfiler.close();
+# print(line);
+
+test="""如果大海能够换回我的爱，就让我用一生等待。
+你还要我怎么样？还想怎样？""";
+print(test);
 
