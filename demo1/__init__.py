@@ -105,7 +105,16 @@
 # myfiler.close();
 # print(line);
 
-test="""如果大海能够换回我的爱，就让我用一生等待。
-你还要我怎么样？还想怎样？""";
-print(test);
+# test="""如果大海能够换回我的爱，就让我用一生等待。
+# 你还要我怎么样？还想怎样？""";
+# print(test);
+
+#2018-1-24
+# s="test";
+# print(s);
+# r=s.replace("s", "r");
+# print(r);
+
+print("abc%sefgh%sjkl" % ('d','i'));
+
 
